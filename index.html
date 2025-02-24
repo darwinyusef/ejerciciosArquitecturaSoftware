@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <h1>Arquitectura de Software</h1>
+            <div class="imagen"></div>
+            <p>Comprender la arquitectura de software es fundamental para cualquier desarrollador. No solo mejora la
+                estructura y mantenibilidad del código, sino que también ayuda a diseñar sistemas escalables y
+                eficientes.</p>
+
+            <h2>¿Por qué es importante la arquitectura de software?</h2>
+
+            <ul>
+                <li><strong>Escalabilidad:</strong> Permite que las aplicaciones crezcan sin perder rendimiento ni
+                    estabilidad.</li>
+                <li><strong>Mantenibilidad:</strong> Facilita la actualización y depuración del código sin afectar
+                    toda la aplicación.</li>
+                <li><strong>Seguridad:</strong> Un buen diseño arquitectónico ayuda a reducir vulnerabilidades y
+                    riesgos.</li>
+                <li><strong>Modularidad:</strong> Separa la aplicación en componentes reutilizables, mejorando la
+                    organización.</li>
+                <li><strong>Desempeño:</strong> Optimizando la arquitectura, se logra una mejor eficiencia en el uso
+                    de recursos.</li>
+            </ul>
+
+            <p>Elegir la arquitectura adecuada (monolítica, en capas, microservicios, etc.) es clave para el éxito
+                de cualquier proyecto de software. Invertir tiempo en aprender buenas prácticas arquitectónicas hará
+                que tu software sea más robusto y sostenible.</p>
+
+        </div>
+    </div>
+    <div id="algoritmos-container"></div>
+
+    <script>
+        // Definir la jerarquía de niveles
+        const jerarquiaNiveles = {
+            'freshman': 1,
+            'sophomore': 2,
+            'junior': 3,
+            'semi senior': 4,
+            'senior': 5,
+            'avanzado': 6,
+            'gerente': 7
+        };
+
+        const checkboxesASeleccionar = ['checkbox-0', 'checkbox-1', 'checkbox-3'];
+
+        // Fetch the JSON data from a local file or API endpoint
+        fetch('https://gist.githubusercontent.com/darwinyusef/0f09f4de400d0de3e63a2ef6c6f0b5c8/raw/0d7f83e4cb844bb53de104d053ac082e5337dce4/info.json')
+            .then(response => response.json())
+            .then((data) => {
+
+                // Ordenar el array 'data' según la jerarquía de niveles
+                data.sort((a, b) => {
+                    return jerarquiaNiveles[a.nivel.toLowerCase()] - jerarquiaNiveles[b.nivel.toLowerCase()];
+                });
+
+                // Example: Print each algorithm's name, level, and category
+                data.forEach((algoritmo, index) => {
+                    console.log(algoritmo);
+                    const algElement = document.createElement('div');
+                    algElement.classList.add('algoritmo');
+
+                    algElement.innerHTML = `
+                        <div id="checkbox-${index}" class="checkbox-container">
+                        <input type="checkbox" id="checkbox-${algoritmo.nombre.replace(/\s+/g, '-').toLowerCase()}">
+                        </div>
+                        <h3>${algoritmo.nombre}</h3>
+                        <p class="algoritmo-level"><strong>Nivel:</strong> <span>${algoritmo.nivel.toUpperCase()}</span></p>
+                        <p><strong>Categoría:</strong> ${algoritmo.categoria}</p>
+                        ${algoritmo.url || algoritmo.url != "" ? `<a href="${algoritmo.url}"> Enlace </a>` : ''}`;
+
+                    document.getElementById('algoritmos-container').appendChild(algElement);
+                });
+            })
+            .then(() => {
+                const algoritmos = document.querySelectorAll('.algoritmo');
+
+                // Iterar sobre cada elemento
+                algoritmos.forEach(algoritmo => {
+                    // Obtener el elemento <h3>
+                    const titulo = algoritmo.querySelector('h3');
+                    // Obtener el nivel del algoritmo
+                    const nivel = obtenerNivel(algoritmo)
+                    // Obtener el emoji correspondiente al nivel
+                    const emoji = obtenerEmojiPorNivel(nivel);
+                    // Prepend el emoji al contenido del título
+                    titulo.textContent = `${emoji} ${titulo.textContent}`;
+                });
+            }).then(() => {
+                const algoritmos = document.querySelectorAll('.algoritmo');
+
+                // Iterar sobre cada elemento
+                algoritmos.forEach(algoritmo => {
+                    let hijo = algoritmo.firstElementChild
+                    hijo.hasAttribute('id')
+                    if (hijo.hasAttribute('id')) {
+                        if (checkboxesASeleccionar.includes(hijo.getAttribute('id'))) {
+                            let check = document.getElementById(hijo.getAttribute('id'))
+                            check.firstElementChild.checked = true;
+                        }
+                    }
+                })
+            })
+            .catch(error => {
+                console.error('Error fetching the algorithms:', error);
+            });
+    </script>
+
+    <script>
+        function obtenerNivel(algoritmo) {
+            const nivelTexto = algoritmo.querySelector('p').textContent;
+            return nivelTexto.replace('Nivel:', '').trim().toLowerCase();
+        }
+
+        function obtenerEmojiPorNivel(nivel) {
+            switch (nivel.toLowerCase()) {
+                case 'freshman':
+                    return '🐣'; // Emoji para nivel freshman
+                case 'sophomore':
+                    return '🐥'; // Emoji para nivel sophomore
+                case 'junior':
+                    return '🤓'; // Emoji para nivel junior
+                case 'semi senior':
+                    return '🐱‍💻'; // Emoji para nivel senior
+                case 'senior':
+                    return '👽'; // Emoji para nivel senior 
+                case 'avanzado':
+                    return '👤'; // Emoji para nivel senior                   
+                default:
+                    return '🐱‍👤'; // Emoji para nivel desconocido
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>

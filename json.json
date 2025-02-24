@@ -1,0 +1,1202 @@
+[
+  {
+    "nombre": "Introducción a la Arquitectura de Software",
+    "nivel": "freshman",
+    "categoria": "General",
+    "url": ""
+  },
+  {
+    "nombre": "Fundamentos de Programación",
+    "nivel": "freshman",
+    "categoria": "General",
+    "url": ""
+  },
+  {
+    "nombre": "Principios de Computación en la Nube",
+    "nivel": "freshman",
+    "categoria": "Cloud",
+    "url": ""
+  },
+  {
+    "nombre": "Control de Versiones con Git",
+    "nivel": "freshman",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Fundamentos de Redes",
+    "nivel": "freshman",
+    "categoria": "Networking",
+    "url": ""
+  },
+  {
+    "nombre": "Introducción a DevOps",
+    "nivel": "freshman",
+    "categoria": "DevOps",
+    "url": ""
+  },
+  {
+    "nombre": "Fundamentos de Seguridad Informática",
+    "nivel": "freshman",
+    "categoria": "Security",
+    "url": ""
+  },
+  {
+    "nombre": "Introducción a Contenedores con Docker",
+    "nivel": "freshman",
+    "categoria": "DevOps",
+    "url": ""
+  },
+  {
+    "nombre": "Fundamentos de Bases de Datos Relacionales",
+    "nivel": "freshman",
+    "categoria": "Data",
+    "url": ""
+  },
+  {
+    "nombre": "Principios SOLID",
+    "nivel": "freshman",
+    "categoria": "Design",
+    "url": ""
+  },
+  {
+    "nombre": "Fundamentos de Infraestructura como Código",
+    "nivel": "freshman",
+    "categoria": "DevOps",
+    "url": ""
+  },
+  {
+    "nombre": "Introducción a Microservicios",
+    "nivel": "freshman",
+    "categoria": "General",
+    "url": ""
+  },
+  {
+    "nombre": "Arquitectura Monolítica vs. Distribuida",
+    "nivel": "freshman",
+    "categoria": "General",
+    "url": ""
+  },
+  {
+    "nombre": "Patrones de Diseño Básicos",
+    "nivel": "freshman",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Introducción a API REST",
+    "nivel": "freshman",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Diseño y Documentación de Arquitectura",
+    "nivel": "sophomore",
+    "categoria": "Design",
+    "url": ""
+  },
+  {
+    "nombre": "Fundamentos de Sistemas Operativos",
+    "nivel": "sophomore",
+    "categoria": "General",
+    "url": ""
+  },
+  {
+    "nombre": "Desarrollo de Aplicaciones Web",
+    "nivel": "sophomore",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Patrones de Diseño Intermedios",
+    "nivel": "sophomore",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Conceptos de Balanceo de Carga y Escalabilidad",
+    "nivel": "sophomore",
+    "categoria": "Networking",
+    "url": ""
+  },
+  {
+    "nombre": "Introducción a Virtualización",
+    "nivel": "sophomore",
+    "categoria": "Cloud",
+    "url": ""
+  },
+  {
+    "nombre": "Introducción a Kubernetes",
+    "nivel": "sophomore",
+    "categoria": "DevOps",
+    "url": ""
+  },
+  {
+    "nombre": "Seguridad en Aplicaciones Web",
+    "nivel": "sophomore",
+    "categoria": "Security",
+    "url": ""
+  },
+  {
+    "nombre": "Fundamentos de API Gateways",
+    "nivel": "sophomore",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Introducción a la Arquitectura de Microservicios",
+    "nivel": "sophomore",
+    "categoria": "General",
+    "url": ""
+  },
+  {
+    "nombre": "Pruebas Automatizadas y TDD",
+    "nivel": "sophomore",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Fundamentos de Servicios Web",
+    "nivel": "sophomore",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Conceptos Básicos de Mensajería y Colas",
+    "nivel": "sophomore",
+    "categoria": "DevOps",
+    "url": ""
+  },
+  {
+    "nombre": "Introducción a la Computación Sin Servidor",
+    "nivel": "sophomore",
+    "categoria": "Cloud",
+    "url": ""
+  },
+  {
+    "nombre": "Monitorización Básica de Sistemas",
+    "nivel": "sophomore",
+    "categoria": "DevOps",
+    "url": ""
+  },
+  {
+    "nombre": "Diseño de Sistemas Distribuidos",
+    "nivel": "junior",
+    "categoria": "General",
+    "url": ""
+  },
+  {
+    "nombre": "Arquitectura Orientada a Servicios",
+    "nivel": "junior",
+    "categoria": "General",
+    "url": ""
+  },
+  {
+    "nombre": "Gestión de Configuraciones y Automatización",
+    "nivel": "junior",
+    "categoria": "DevOps",
+    "url": ""
+  },
+  {
+    "nombre": "Estrategias de Escalabilidad",
+    "nivel": "junior",
+    "categoria": "General",
+    "url": ""
+  },
+  {
+    "nombre": "Seguridad Avanzada en Redes",
+    "nivel": "junior",
+    "categoria": "Security",
+    "url": ""
+  },
+  {
+    "nombre": "Orquestación de Contenedores con Kubernetes",
+    "nivel": "junior",
+    "categoria": "DevOps",
+    "url": ""
+  },
+  {
+    "nombre": "Integración Continua y Despliegue Continuo",
+    "nivel": "junior",
+    "categoria": "DevOps",
+    "url": ""
+  },
+  {
+    "nombre": "Diseño de API RESTful",
+    "nivel": "junior",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Fundamentos de Servicios en la Nube",
+    "nivel": "junior",
+    "categoria": "Cloud",
+    "url": ""
+  },
+  {
+    "nombre": "Diseño y Gestión de Bases de Datos NoSQL",
+    "nivel": "junior",
+    "categoria": "Data",
+    "url": ""
+  },
+  {
+    "nombre": "Patrones de Arquitectura",
+    "nivel": "junior",
+    "categoria": "Design",
+    "url": ""
+  },
+  {
+    "nombre": "Gestión de la Configuración de Infraestructura",
+    "nivel": "junior",
+    "categoria": "DevOps",
+    "url": ""
+  },
+  {
+    "nombre": "Introducción a Service Mesh",
+    "nivel": "junior",
+    "categoria": "DevOps",
+    "url": ""
+  },
+  {
+    "nombre": "Diseño de Sistemas Resilientes",
+    "nivel": "junior",
+    "categoria": "General",
+    "url": ""
+  },
+  {
+    "nombre": "Seguridad en Microservicios",
+    "nivel": "junior",
+    "categoria": "Security",
+    "url": ""
+  },
+  {
+    "nombre": "Integración de Sistemas Híbridos",
+    "nivel": "semi senior",
+    "categoria": "General",
+    "url": ""
+  },
+  {
+    "nombre": "Arquitectura Basada en Eventos",
+    "nivel": "semi senior",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Diseño de Microservicios a Escala",
+    "nivel": "semi senior",
+    "categoria": "General",
+    "url": ""
+  },
+  {
+    "nombre": "Estrategias Avanzadas de Caching",
+    "nivel": "semi senior",
+    "categoria": "Performance",
+    "url": ""
+  },
+  {
+    "nombre": "Implementación de CI/CD en Entornos Complejos",
+    "nivel": "semi senior",
+    "categoria": "DevOps",
+    "url": ""
+  },
+  {
+    "nombre": "Gestión de la Infraestructura Multicloud",
+    "nivel": "semi senior",
+    "categoria": "Cloud",
+    "url": ""
+  },
+  {
+    "nombre": "Seguridad Avanzada en Aplicaciones Distribuidas",
+    "nivel": "semi senior",
+    "categoria": "Security",
+    "url": ""
+  },
+  {
+    "nombre": "Optimización de Bases de Datos Relacionales y NoSQL",
+    "nivel": "semi senior",
+    "categoria": "Data",
+    "url": ""
+  },
+  {
+    "nombre": "Estrategias de Observabilidad y Monitorización",
+    "nivel": "semi senior",
+    "categoria": "DevOps",
+    "url": ""
+  },
+  {
+    "nombre": "Implementación de Infraestructura como Código a Gran Escala",
+    "nivel": "semi senior",
+    "categoria": "DevOps",
+    "url": ""
+  },
+  {
+    "nombre": "Arquitectura de Sistemas en Tiempo Real",
+    "nivel": "semi senior",
+    "categoria": "General",
+    "url": ""
+  },
+  {
+    "nombre": "Integración de Herramientas de DevOps",
+    "nivel": "semi senior",
+    "categoria": "DevOps",
+    "url": ""
+  },
+  {
+    "nombre": "Diseño y Gestión de Redes Seguras",
+    "nivel": "semi senior",
+    "categoria": "Networking",
+    "url": ""
+  },
+  {
+    "nombre": "Uso de Service Mesh para Gestión de Microservicios",
+    "nivel": "semi senior",
+    "categoria": "DevOps",
+    "url": ""
+  },
+  {
+    "nombre": "Estrategias de Resiliencia y Tolerancia a Fallos",
+    "nivel": "semi senior",
+    "categoria": "General",
+    "url": ""
+  },
+  {
+    "nombre": "Arquitectura de Soluciones Basadas en Cloud Nativa",
+    "nivel": "advance",
+    "categoria": "Cloud",
+    "url": ""
+  },
+  {
+    "nombre": "Implementación de Serverless Architectures",
+    "nivel": "advance",
+    "categoria": "Cloud",
+    "url": ""
+  },
+  {
+    "nombre": "Estrategias de Migración a la Nube",
+    "nivel": "advance",
+    "categoria": "Cloud",
+    "url": ""
+  },
+  {
+    "nombre": "Integración de Sistemas Legacy con Microservicios",
+    "nivel": "advance",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Estrategias de Seguridad en la Nube",
+    "nivel": "advance",
+    "categoria": "Security",
+    "url": ""
+  },
+  {
+    "nombre": "Optimización de Costos en Infraestructura Cloud",
+    "nivel": "advance",
+    "categoria": "Cloud",
+    "url": ""
+  },
+  {
+    "nombre": "Diseño de Sistemas Distribuidos a Gran Escala",
+    "nivel": "advance",
+    "categoria": "General",
+    "url": ""
+  },
+  {
+    "nombre": "Implementación de Modelos de Datos Avanzados",
+    "nivel": "advance",
+    "categoria": "Data",
+    "url": ""
+  },
+  {
+    "nombre": "Arquitectura de Contenedores en Producción",
+    "nivel": "advance",
+    "categoria": "DevOps",
+    "url": ""
+  },
+  {
+    "nombre": "Estrategias de Alta Disponibilidad y Disaster Recovery",
+    "nivel": "advance",
+    "categoria": "General",
+    "url": ""
+  },
+  {
+    "nombre": "Automatización Avanzada de Infraestructura",
+    "nivel": "advance",
+    "categoria": "DevOps",
+    "url": ""
+  },
+  {
+    "nombre": "Uso de Inteligencia Artificial en la Gestión de Sistemas",
+    "nivel": "advance",
+    "categoria": "AI/ML",
+    "url": ""
+  },
+  {
+    "nombre": "Integración de API Gateways en Ecosistemas Heterogéneos",
+    "nivel": "advance",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Diseño y Gestión de Sistemas Basados en Eventos",
+    "nivel": "advance",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Estrategias de Seguridad Zero Trust",
+    "nivel": "advance",
+    "categoria": "Security",
+    "url": ""
+  },
+  {
+    "nombre": "Diseño y Evaluación de Arquitecturas Empresariales",
+    "nivel": "senior",
+    "categoria": "General",
+    "url": ""
+  },
+  {
+    "nombre": "Estrategias de Optimización de Rendimiento a Gran Escala",
+    "nivel": "senior",
+    "categoria": "Performance",
+    "url": ""
+  },
+  {
+    "nombre": "Arquitectura de Sistemas para Big Data",
+    "nivel": "senior",
+    "categoria": "Data",
+    "url": ""
+  },
+  {
+    "nombre": "Diseño de Infraestructuras de Alta Escalabilidad y Resiliencia",
+    "nivel": "senior",
+    "categoria": "General",
+    "url": ""
+  },
+  {
+    "nombre": "Gestión de Riesgos y Seguridad Integral",
+    "nivel": "senior",
+    "categoria": "Security",
+    "url": ""
+  },
+  {
+    "nombre": "Arquitectura de Microservicios con Integración Continua",
+    "nivel": "senior",
+    "categoria": "DevOps",
+    "url": ""
+  },
+  {
+    "nombre": "Implementación de Políticas de Gobernanza y Compliance",
+    "nivel": "senior",
+    "categoria": "Management",
+    "url": ""
+  },
+  {
+    "nombre": "Estrategias de Integración Continua en Sistemas Complejos",
+    "nivel": "senior",
+    "categoria": "DevOps",
+    "url": ""
+  },
+  {
+    "nombre": "Arquitectura de Redes para Centros de Datos",
+    "nivel": "senior",
+    "categoria": "Networking",
+    "url": ""
+  },
+  {
+    "nombre": "Optimización de Sistemas Distribuidos en Tiempo Real",
+    "nivel": "senior",
+    "categoria": "Performance",
+    "url": ""
+  },
+  {
+    "nombre": "Diseño de Arquitecturas Multi-Tier y Multicloud",
+    "nivel": "senior",
+    "categoria": "Cloud",
+    "url": ""
+  },
+  {
+    "nombre": "Uso de Automatización y Orquestación Avanzada",
+    "nivel": "senior",
+    "categoria": "DevOps",
+    "url": ""
+  },
+  {
+    "nombre": "Estrategias de Data Lake y Data Warehouse",
+    "nivel": "senior",
+    "categoria": "Data",
+    "url": ""
+  },
+  {
+    "nombre": "Implementación de Estrategias de Observabilidad y Telemetría",
+    "nivel": "senior",
+    "categoria": "DevOps",
+    "url": ""
+  },
+  {
+    "nombre": "Integración de Tecnologías Emergentes en la Arquitectura",
+    "nivel": "senior",
+    "categoria": "General",
+    "url": ""
+  },
+  {
+    "nombre": "Estrategia de Arquitectura Empresarial y Tecnológica",
+    "nivel": "gerente",
+    "categoria": "Management",
+    "url": ""
+  },
+  {
+    "nombre": "Gestión y Liderazgo de Equipos Técnicos",
+    "nivel": "gerente",
+    "categoria": "Management",
+    "url": ""
+  },
+  {
+    "nombre": "Planificación y Presupuestación de Proyectos de TI",
+    "nivel": "gerente",
+    "categoria": "Management",
+    "url": ""
+  },
+  {
+    "nombre": "Evaluación de ROI y Beneficios de Inversión en Tecnología",
+    "nivel": "gerente",
+    "categoria": "Management",
+    "url": ""
+  },
+  {
+    "nombre": "Gestión de Riesgos y Cumplimiento Normativo",
+    "nivel": "gerente",
+    "categoria": "Management",
+    "url": ""
+  },
+  {
+    "nombre": "Estrategias de Innovación y Transformación Digital",
+    "nivel": "gerente",
+    "categoria": "Management",
+    "url": ""
+  },
+  {
+    "nombre": "Evaluación y Selección de Proveedores Tecnológicos",
+    "nivel": "gerente",
+    "categoria": "Management",
+    "url": ""
+  },
+  {
+    "nombre": "Gestión de la Cultura DevOps en la Organización",
+    "nivel": "gerente",
+    "categoria": "Management",
+    "url": ""
+  },
+  {
+    "nombre": "Diseño y Ejecución de Estrategias de Gobernanza TI",
+    "nivel": "gerente",
+    "categoria": "Management",
+    "url": ""
+  },
+  {
+    "nombre": "Supervisión de la Integración Tecnológica y la Escalabilidad Organizacional",
+    "nivel": "gerente",
+    "categoria": "Management",
+    "url": ""
+  },
+  {
+    "nombre": "Modelado de Dominios con DDD",
+    "nivel": "sophomore",
+    "categoria": "Design",
+    "url": ""
+  },
+  {
+    "nombre": "Principios de Arquitectura Hexagonal",
+    "nivel": "junior",
+    "categoria": "Design",
+    "url": ""
+  },
+  {
+    "nombre": "Patrones de Integración Empresarial",
+    "nivel": "junior",
+    "categoria": "Design",
+    "url": ""
+  },
+  {
+    "nombre": "Implementación de APIs GraphQL",
+    "nivel": "sophomore",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Prácticas de DevSecOps",
+    "nivel": "semi senior",
+    "categoria": "Security",
+    "url": ""
+  },
+  {
+    "nombre": "Automatización de Pruebas de Integración",
+    "nivel": "junior",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Optimización de Procesos CI/CD",
+    "nivel": "advance",
+    "categoria": "DevOps",
+    "url": ""
+  },
+  {
+    "nombre": "Arquitectura de Aplicaciones Mobile",
+    "nivel": "sophomore",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Diseño de Aplicaciones Multiplataforma",
+    "nivel": "junior",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Optimización de Consumo de API",
+    "nivel": "junior",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Diseño de APIs Hipermedia (HATEOAS)",
+    "nivel": "advance",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Integración de Servicios de Terceros",
+    "nivel": "sophomore",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Implementación de Estrategias de Cache Distribuido",
+    "nivel": "semi senior",
+    "categoria": "Performance",
+    "url": ""
+  },
+  {
+    "nombre": "Arquitectura de Eventos con Apache Kafka",
+    "nivel": "semi senior",
+    "categoria": "DevOps",
+    "url": ""
+  },
+  {
+    "nombre": "Orquestación de Servicios con Docker Swarm",
+    "nivel": "sophomore",
+    "categoria": "DevOps",
+    "url": ""
+  },
+  {
+    "nombre": "Estrategias de Comunicación Asíncrona",
+    "nivel": "junior",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Implementación de Arquitecturas Event-Driven",
+    "nivel": "semi senior",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Seguridad en Comunicación de Microservicios",
+    "nivel": "junior",
+    "categoria": "Security",
+    "url": ""
+  },
+  {
+    "nombre": "Uso de Proxies Inversos",
+    "nivel": "freshman",
+    "categoria": "Networking",
+    "url": ""
+  },
+  {
+    "nombre": "Implementación de WebSockets en Tiempo Real",
+    "nivel": "junior",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Introducción a MQTT y Protocolos IoT",
+    "nivel": "freshman",
+    "categoria": "IoT",
+    "url": ""
+  },
+  {
+    "nombre": "Integración de IoT en la Arquitectura Empresarial",
+    "nivel": "semi senior",
+    "categoria": "IoT",
+    "url": ""
+  },
+  {
+    "nombre": "Gestión de Contenedores con Podman",
+    "nivel": "sophomore",
+    "categoria": "DevOps",
+    "url": ""
+  },
+  {
+    "nombre": "Fundamentos de Service Discovery",
+    "nivel": "sophomore",
+    "categoria": "DevOps",
+    "url": ""
+  },
+  {
+    "nombre": "Implementación de Circuit Breaker Patterns",
+    "nivel": "junior",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Uso de API Management Platforms",
+    "nivel": "junior",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Implementación de Seguridad en API Gateways",
+    "nivel": "junior",
+    "categoria": "Security",
+    "url": ""
+  },
+  {
+    "nombre": "Monitoreo y Logging con ELK Stack",
+    "nivel": "sophomore",
+    "categoria": "DevOps",
+    "url": ""
+  },
+  {
+    "nombre": "Arquitectura de Sistemas Basados en Event Sourcing",
+    "nivel": "advance",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Implementación de CQRS",
+    "nivel": "advance",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Diseño de Bases de Datos Distribuidas",
+    "nivel": "senior",
+    "categoria": "Data",
+    "url": ""
+  },
+  {
+    "nombre": "Gestión de Transacciones en Sistemas Distribuidos",
+    "nivel": "senior",
+    "categoria": "Data",
+    "url": ""
+  },
+  {
+    "nombre": "Uso de Graph Databases",
+    "nivel": "junior",
+    "categoria": "Data",
+    "url": ""
+  },
+  {
+    "nombre": "Diseño de Arquitecturas Multitenant",
+    "nivel": "senior",
+    "categoria": "Cloud",
+    "url": ""
+  },
+  {
+    "nombre": "Optimización de Latencia en Sistemas Distribuidos",
+    "nivel": "senior",
+    "categoria": "Performance",
+    "url": ""
+  },
+  {
+    "nombre": "Estrategias de Observabilidad con Prometheus",
+    "nivel": "junior",
+    "categoria": "DevOps",
+    "url": ""
+  },
+  {
+    "nombre": "Implementación de Alertas y Notificaciones",
+    "nivel": "sophomore",
+    "categoria": "DevOps",
+    "url": ""
+  },
+  {
+    "nombre": "Arquitectura basada en API First",
+    "nivel": "junior",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Desarrollo de Aplicaciones con Serverless Framework",
+    "nivel": "sophomore",
+    "categoria": "Cloud",
+    "url": ""
+  },
+  {
+    "nombre": "Diseño de Aplicaciones con Cloud Functions",
+    "nivel": "sophomore",
+    "categoria": "Cloud",
+    "url": ""
+  },
+  {
+    "nombre": "Implementación de Infraestructura sin Servidor",
+    "nivel": "advance",
+    "categoria": "Cloud",
+    "url": ""
+  },
+  {
+    "nombre": "Uso de FaaS en Arquitectura Empresarial",
+    "nivel": "advance",
+    "categoria": "Cloud",
+    "url": ""
+  },
+  {
+    "nombre": "Prácticas de Seguridad en Cloud",
+    "nivel": "sophomore",
+    "categoria": "Security",
+    "url": ""
+  },
+  {
+    "nombre": "Integración de Identity and Access Management",
+    "nivel": "junior",
+    "categoria": "Security",
+    "url": ""
+  },
+  {
+    "nombre": "Gestión de Certificados Digitales",
+    "nivel": "junior",
+    "categoria": "Security",
+    "url": ""
+  },
+  {
+    "nombre": "Implementación de Autenticación Multifactor",
+    "nivel": "junior",
+    "categoria": "Security",
+    "url": ""
+  },
+  {
+    "nombre": "Diseño de Arquitecturas para Big Data",
+    "nivel": "senior",
+    "categoria": "Data",
+    "url": ""
+  },
+  {
+    "nombre": "Uso de Hadoop y Spark en la Arquitectura",
+    "nivel": "senior",
+    "categoria": "Data",
+    "url": ""
+  },
+  {
+    "nombre": "Optimización de Procesos de ETL",
+    "nivel": "senior",
+    "categoria": "Data",
+    "url": ""
+  },
+  {
+    "nombre": "Modelado de Data Lakes",
+    "nivel": "senior",
+    "categoria": "Data",
+    "url": ""
+  },
+  {
+    "nombre": "Integración de Data Warehouses",
+    "nivel": "senior",
+    "categoria": "Data",
+    "url": ""
+  },
+  {
+    "nombre": "Implementación de Machine Learning Pipelines",
+    "nivel": "advance",
+    "categoria": "AI/ML",
+    "url": ""
+  },
+  {
+    "nombre": "Diseño de Sistemas de Recomendación",
+    "nivel": "advance",
+    "categoria": "AI/ML",
+    "url": ""
+  },
+  {
+    "nombre": "Uso de Modelos Predictivos en la Arquitectura",
+    "nivel": "advance",
+    "categoria": "AI/ML",
+    "url": ""
+  },
+  {
+    "nombre": "Implementación de NLP en Aplicaciones",
+    "nivel": "advance",
+    "categoria": "AI/ML",
+    "url": ""
+  },
+  {
+    "nombre": "Optimización de Procesos de Data Mining",
+    "nivel": "senior",
+    "categoria": "Data",
+    "url": ""
+  },
+  {
+    "nombre": "Arquitectura para Integración de Blockchain",
+    "nivel": "advance",
+    "categoria": "Security",
+    "url": ""
+  },
+  {
+    "nombre": "Implementación de Smart Contracts",
+    "nivel": "advance",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Uso de Plataformas Blockchain Empresariales",
+    "nivel": "advance",
+    "categoria": "Security",
+    "url": ""
+  },
+  {
+    "nombre": "Diseño de Sistemas para Transacciones Seguras",
+    "nivel": "senior",
+    "categoria": "Security",
+    "url": ""
+  },
+  {
+    "nombre": "Integración de Herramientas de Automatización de Pruebas",
+    "nivel": "junior",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Uso de Selenium para Pruebas Automatizadas",
+    "nivel": "freshman",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Implementación de Pruebas de Rendimiento",
+    "nivel": "junior",
+    "categoria": "Performance",
+    "url": ""
+  },
+  {
+    "nombre": "Optimización de Testing en Entornos CI/CD",
+    "nivel": "junior",
+    "categoria": "DevOps",
+    "url": ""
+  },
+  {
+    "nombre": "Diseño de Estrategias de Rollback y Blue-Green Deployment",
+    "nivel": "semi senior",
+    "categoria": "DevOps",
+    "url": ""
+  },
+  {
+    "nombre": "Implementación de Canary Releases",
+    "nivel": "semi senior",
+    "categoria": "DevOps",
+    "url": ""
+  },
+  {
+    "nombre": "Gestión de Versiones en Aplicaciones Distribuidas",
+    "nivel": "sophomore",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Integración de Frameworks de Desarrollo Modernos",
+    "nivel": "freshman",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Diseño de Arquitecturas Mobile-First",
+    "nivel": "sophomore",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Uso de Frameworks de Frontend Modernos",
+    "nivel": "freshman",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Desarrollo de Aplicaciones Reactivas",
+    "nivel": "junior",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Implementación de Patrones de Comunicación Realtime",
+    "nivel": "junior",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Optimización de Experiencia de Usuario en Aplicaciones Web",
+    "nivel": "sophomore",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Diseño de Interfaces RESTful para Móviles",
+    "nivel": "sophomore",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Gestión de Sesiones y Estado en Aplicaciones Distribuidas",
+    "nivel": "junior",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Implementación de Técnicas de Seguridad en Aplicaciones Móviles",
+    "nivel": "junior",
+    "categoria": "Security",
+    "url": ""
+  },
+  {
+    "nombre": "Uso de Analytics y Telemetría en Aplicaciones",
+    "nivel": "semi senior",
+    "categoria": "Data",
+    "url": ""
+  },
+  {
+    "nombre": "Optimización de Procesos de Data Analytics",
+    "nivel": "semi senior",
+    "categoria": "Data",
+    "url": ""
+  },
+  {
+    "nombre": "Implementación de Soluciones de BI",
+    "nivel": "senior",
+    "categoria": "Data",
+    "url": ""
+  },
+  {
+    "nombre": "Integración de Herramientas de Visualización de Datos",
+    "nivel": "senior",
+    "categoria": "Data",
+    "url": ""
+  },
+  {
+    "nombre": "Diseño de Infraestructuras para Realidad Aumentada",
+    "nivel": "advance",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Implementación de Sistemas para Realidad Virtual",
+    "nivel": "advance",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Integración de IoT con Edge Computing",
+    "nivel": "semi senior",
+    "categoria": "IoT",
+    "url": ""
+  },
+  {
+    "nombre": "Diseño de Arquitecturas para Edge Computing",
+    "nivel": "semi senior",
+    "categoria": "Cloud",
+    "url": ""
+  },
+  {
+    "nombre": "Uso de Tecnologías 5G en Arquitectura",
+    "nivel": "advance",
+    "categoria": "Networking",
+    "url": ""
+  },
+  {
+    "nombre": "Implementación de Redes Definidas por Software (SDN)",
+    "nivel": "junior",
+    "categoria": "Networking",
+    "url": ""
+  },
+  {
+    "nombre": "Diseño de Arquitecturas para Redes Convergentes",
+    "nivel": "senior",
+    "categoria": "Networking",
+    "url": ""
+  },
+  {
+    "nombre": "Integración de Virtualización de Redes",
+    "nivel": "sophomore",
+    "categoria": "Networking",
+    "url": ""
+  },
+  {
+    "nombre": "Implementación de Técnicas de Segmentación de Red",
+    "nivel": "junior",
+    "categoria": "Networking",
+    "url": ""
+  },
+  {
+    "nombre": "Uso de Herramientas de Simulación de Redes",
+    "nivel": "freshman",
+    "categoria": "Networking",
+    "url": ""
+  },
+  {
+    "nombre": "Estrategias de Resiliencia en Redes de Datos",
+    "nivel": "senior",
+    "categoria": "Networking",
+    "url": ""
+  },
+  {
+    "nombre": "Gestión de Infraestructura en Ambientes Multi-Cloud",
+    "nivel": "senior",
+    "categoria": "Cloud",
+    "url": ""
+  },
+  {
+    "nombre": "Diseño de Arquitecturas para IoT Masivo",
+    "nivel": "advance",
+    "categoria": "IoT",
+    "url": ""
+  },
+  {
+    "nombre": "Implementación de Estrategias de Automatización de Redes",
+    "nivel": "semi senior",
+    "categoria": "Networking",
+    "url": ""
+  },
+  {
+    "nombre": "Gestión de Políticas de Seguridad y Compliance en Redes",
+    "nivel": "senior",
+    "categoria": "Security",
+    "url": ""
+  },
+  {
+    "nombre": "Optimización de Rendimiento en Aplicaciones de Alto Tráfico",
+    "nivel": "senior",
+    "categoria": "Performance",
+    "url": ""
+  },
+  {
+    "nombre": "Implementación de Estrategias de Optimización de Recursos",
+    "nivel": "advance",
+    "categoria": "Performance",
+    "url": ""
+  },
+  {
+    "nombre": "Desarrollo de Soluciones de Automatización Empresarial",
+    "nivel": "advance",
+    "categoria": "Development",
+    "url": ""
+  },
+  {
+    "nombre": "Integración de Plataformas de Comunicación Unificada",
+    "nivel": "advance",
+    "categoria": "Communication",
+    "url": ""
+  },
+  {
+    "nombre": "Planificación Estratégica en Transformación Digital",
+    "nivel": "gerente",
+    "categoria": "Management",
+    "url": ""
+  }
+]
