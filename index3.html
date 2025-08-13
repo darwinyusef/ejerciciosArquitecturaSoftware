@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan de Desarrollo de Arquitecto de Software Polímata</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #2c3e50;
+        }
+
+        h3 {
+            margin-top: 0;
+            color: #2980b9;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            background-color: #ecf0f1;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 5px;
+        }
+
+        .nivel-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+        }
+
+        .nivel-titulo {
+            font-size: 2em;
+            color: #34495e;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            grid-column: 1 / -1;
+        }
+
+        .algoritmo {
+            background-color: #ecf0f1;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+        }
+
+     
+        .algoritmo h3 {
+            margin: 0;
+            flex-grow: 1;
+        }
+
+        .nivel-subtitulo {
+            grid-column: 1 / -1;
+        }
+
+        .algoritmo-level {
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+
+        .algoritmo-level span {
+            background-color: #3498db;
+            color: #fff;
+            padding: 2px 8px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+
+        .checkbox-container {
+            margin-right: 15px;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <h1>Arquitectura de Software</h1>
+            <div class="imagen"></div>
+            <p>Comprender la arquitectura de software es fundamental para cualquier desarrollador. No solo mejora la
+                estructura y mantenibilidad del código, sino que también ayuda a diseñar sistemas escalables y eficientes.
+            </p>
+
+            <h2>¿Por qué es importante la arquitectura de software?</h2>
+
+            <ul>
+                <li><strong>Escalabilidad:</strong> Permite que las aplicaciones crezcan sin perder rendimiento ni
+                    estabilidad.</li>
+                <li><strong>Mantenibilidad:</strong> Facilita la actualización y depuración del código sin afectar
+                    toda la aplicación.</li>
+                <li><strong>Seguridad:</strong> Un buen diseño arquitectónico ayuda a reducir vulnerabilidades y
+                    riesgos.</li>
+                <li><strong>Modularidad:</strong> Separa la aplicación en componentes reutilizables, mejorando la
+                    organización.</li>
+                <li><strong>Desempeño:</strong> Optimizando la arquitectura, se logra una mejor eficiencia en el uso
+                    de recursos.</li>
+            </ul>
+
+            <p>Elegir la arquitectura adecuada (monolítica, en capas, microservicios, etc.) es clave para el éxito
+                de cualquier proyecto de software. Invertir tiempo en aprender buenas prácticas arquitectónicas hará
+                que tu software sea más robusto y sostenible.</p>
+        </div>
+    </div>
+    
+    <div class="container">
+        <h2 class="nivel-titulo">Plan de Desarrollo Polímata</h2>
+        <div id="algoritmos-container"></div>
+    </div>
+
+
+    <script>
+
+      fetch("./polimata_arch2.json")
+      .then((res) => res.json())
+      .then(res => {
+        const planDeDesarrollo = res
+        const algoritmosContainer = document.getElementById('algoritmos-container');
+
+        const obtenerEmojiPorNivel = (nivel) => {
+            switch (nivel.toLowerCase()) {
+                case 'freshman':
+                    return '🐣';
+                case 'sophomore':
+                    return '🐥';
+                case 'junior':
+                    return '🤓';
+                case 'semi_senior':
+                    return '🐱‍💻';
+                case 'advance':
+                    return '🚀';
+                case 'senior':
+                    return '👽';
+                case 'gerente':
+                    return '👑';
+                default:
+                    return '🤷‍♀️';
+            }
+        };
+
+        planDeDesarrollo.plan_de_desarrollo_polimata.niveles.forEach(nivelData => {
+            const nivelElement = document.createElement('div');
+            nivelElement.classList.add('nivel-container');
+
+            const nivelTituloElement = document.createElement('h3');
+            nivelTituloElement.classList.add('nivel-titulo');
+            nivelTituloElement.textContent = `Nivel: ${nivelData.nivel.toUpperCase()}`;
+            nivelElement.appendChild(nivelTituloElement);
+            
+            const nivelDescripcionElement = document.createElement('p');
+            nivelDescripcionElement.classList.add('nivel-subtitulo');
+            nivelDescripcionElement.textContent = nivelData.descripcion;
+            nivelElement.appendChild(nivelDescripcionElement);
+
+            nivelData.actividades.forEach(actividad => {
+                const actividadElement = document.createElement('div');
+                actividadElement.classList.add('algoritmo');
+                const emoji = obtenerEmojiPorNivel(nivelData.nivel);
+                
+                actividadElement.innerHTML = `
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="checkbox-${actividad.nombre.replace(/\s+/g, '-').toLowerCase()}">
+                    </div>
+                    <div>
+                        <h3>${emoji} ${actividad.nombre}</h3>
+                        <p class="algoritmo-level"><strong>Nivel:</strong> <span>${nivelData.nivel.toUpperCase()}</span></p>
+                        <p><strong>Categoría:</strong> ${actividad.categoria}</p>
+                        ${actividad.url ? `<a href="${actividad.url}">Enlace</a>` : ''}
+                    </div>
+                `;
+                nivelElement.appendChild(actividadElement);
+            });
+
+            algoritmosContainer.appendChild(nivelElement);
+        });
+
+      })
+      .catch()
+    </script>
+</body>
+
+</html>
