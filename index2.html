@@ -1,0 +1,1243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan de Desarrollo de Arquitecto de Software Polímata</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #2c3e50;
+        }
+
+        h3 {
+            margin-top: 0;
+            color: #2980b9;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            background-color: #ecf0f1;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 5px;
+        }
+
+        .nivel-container {
+            border-left: 5px solid #3498db;
+            padding-left: 20px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+
+        .nivel-titulo {
+            font-size: 2em;
+            color: #34495e;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+        }
+
+        .algoritmo {
+            background-color: #ecf0f1;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+        }
+
+        .algoritmo h3 {
+            margin: 0;
+            flex-grow: 1;
+        }
+
+        .algoritmo-level {
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+
+        .algoritmo-level span {
+            background-color: #3498db;
+            color: #fff;
+            padding: 2px 8px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+
+        .checkbox-container {
+            margin-right: 15px;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <h1>Arquitectura de Software</h1>
+            <div class="imagen"></div>
+            <p>Comprender la arquitectura de software es fundamental para cualquier desarrollador. No solo mejora la
+                estructura y mantenibilidad del código, sino que también ayuda a diseñar sistemas escalables y eficientes.
+            </p>
+
+            <h2>¿Por qué es importante la arquitectura de software?</h2>
+
+            <ul>
+                <li><strong>Escalabilidad:</strong> Permite que las aplicaciones crezcan sin perder rendimiento ni
+                    estabilidad.</li>
+                <li><strong>Mantenibilidad:</strong> Facilita la actualización y depuración del código sin afectar
+                    toda la aplicación.</li>
+                <li><strong>Seguridad:</strong> Un buen diseño arquitectónico ayuda a reducir vulnerabilidades y
+                    riesgos.</li>
+                <li><strong>Modularidad:</strong> Separa la aplicación en componentes reutilizables, mejorando la
+                    organización.</li>
+                <li><strong>Desempeño:</strong> Optimizando la arquitectura, se logra una mejor eficiencia en el uso
+                    de recursos.</li>
+            </ul>
+
+            <p>Elegir la arquitectura adecuada (monolítica, en capas, microservicios, etc.) es clave para el éxito
+                de cualquier proyecto de software. Invertir tiempo en aprender buenas prácticas arquitectónicas hará
+                que tu software sea más robusto y sostenible.</p>
+        </div>
+    </div>
+    
+    <div class="container">
+        <h2 class="nivel-titulo">Plan de Desarrollo Polímata</h2>
+        <div id="algoritmos-container"></div>
+    </div>
+
+
+    <script>
+        const planDeDesarrollo = {
+            "plan_de_desarrollo_polimata": {
+                "descripcion": "Plan de desarrollo para un arquitecto de software polímata, enfocado en alcanzar un alto nivel de abstracción tecnológica y amplitud técnica, con énfasis en la integración de IA.",
+                "objetivo": "Formar un arquitecto de software con conocimientos profundos en múltiples dominios (desarrollo, DevOps, IA/ML, Cloud, seguridad, etc.) para diseñar soluciones holísticas e innovadoras.",
+                "niveles": [
+                    {
+                        "nivel": "freshman",
+                        "descripcion": "Fundamentos y conceptos básicos en múltiples dominios. El objetivo es construir una base sólida y entender el panorama general de la arquitectura de software.",
+                        "actividades": [
+                            {
+                                "nombre": "Introducción a la Arquitectura de Software",
+                                "categoria": "General",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Fundamentos de Programación",
+                                "categoria": "General",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Principios de Computación en la Nube",
+                                "categoria": "Cloud",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Control de Versiones con Git",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Fundamentos de Redes",
+                                "categoria": "Networking",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Introducción a DevOps",
+                                "categoria": "DevOps",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Fundamentos de Seguridad Informática",
+                                "categoria": "Security",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Introducción a Contenedores con Docker",
+                                "categoria": "DevOps",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Fundamentos de Bases de Datos Relacionales",
+                                "categoria": "Data",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Principios SOLID",
+                                "categoria": "Design",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Fundamentos de Infraestructura como Código",
+                                "categoria": "DevOps",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Introducción a Microservicios",
+                                "categoria": "General",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Arquitectura Monolítica vs. Distribuida",
+                                "categoria": "General",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Patrones de Diseño Básicos",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Introducción a API REST",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Uso de Proxies Inversos",
+                                "categoria": "Networking",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Introducción a MQTT y Protocolos IoT",
+                                "categoria": "IoT",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Integración de Frameworks de Desarrollo Modernos",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Uso de Frameworks de Frontend Modernos",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Uso de Selenium para Pruebas Automatizadas",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Uso de Herramientas de Simulación de Redes",
+                                "categoria": "Networking",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "nivel": "sophomore",
+                        "descripcion": "Profundización en tecnologías clave y desarrollo de habilidades prácticas. Se empiezan a combinar conceptos de diferentes categorías.",
+                        "actividades": [
+                            {
+                                "nombre": "Diseño y Documentación de Arquitectura",
+                                "categoria": "Design",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Fundamentos de Sistemas Operativos",
+                                "categoria": "General",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Desarrollo de Aplicaciones Web",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Patrones de Diseño Intermedios",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Conceptos de Balanceo de Carga y Escalabilidad",
+                                "categoria": "Networking",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Introducción a Virtualización",
+                                "categoria": "Cloud",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Introducción a Kubernetes",
+                                "categoria": "DevOps",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Seguridad en Aplicaciones Web",
+                                "categoria": "Security",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Fundamentos de API Gateways",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Pruebas Automatizadas y TDD",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Fundamentos de Servicios Web",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Conceptos Básicos de Mensajería y Colas",
+                                "categoria": "DevOps",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Introducción a la Computación Sin Servidor",
+                                "categoria": "Cloud",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Monitorización Básica de Sistemas",
+                                "categoria": "DevOps",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Modelado de Dominios con DDD",
+                                "categoria": "Design",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Implementación de APIs GraphQL",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Arquitectura de Aplicaciones Mobile",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Integración de Servicios de Terceros",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Orquestación de Servicios con Docker Swarm",
+                                "categoria": "DevOps",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Gestión de Contenedores con Podman",
+                                "categoria": "DevOps",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Fundamentos de Service Discovery",
+                                "categoria": "DevOps",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Monitoreo y Logging con ELK Stack",
+                                "categoria": "DevOps",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Implementación de Alertas y Notificaciones",
+                                "categoria": "DevOps",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Desarrollo de Aplicaciones con Serverless Framework",
+                                "categoria": "Cloud",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Diseño de Aplicaciones con Cloud Functions",
+                                "categoria": "Cloud",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Prácticas de Seguridad en Cloud",
+                                "categoria": "Security",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Gestión de Versiones en Aplicaciones Distribuidas",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Diseño de Arquitecturas Mobile-First",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Optimización de Experiencia de Usuario en Aplicaciones Web",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Diseño de Interfaces RESTful para Móviles",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Integración de Virtualización de Redes",
+                                "categoria": "Networking",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "nivel": "junior",
+                        "descripcion": "Especialización y diseño de soluciones complejas. El enfoque es en patrones de diseño avanzados, sistemas distribuidos y seguridad.",
+                        "actividades": [
+                            {
+                                "nombre": "Diseño de Sistemas Distribuidos",
+                                "categoria": "General",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Arquitectura Orientada a Servicios",
+                                "categoria": "General",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Gestión de Configuraciones y Automatización",
+                                "categoria": "DevOps",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Estrategias de Escalabilidad",
+                                "categoria": "General",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Seguridad Avanzada en Redes",
+                                "categoria": "Security",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Orquestación de Contenedores con Kubernetes",
+                                "categoria": "DevOps",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Integración Continua y Despliegue Continuo",
+                                "categoria": "DevOps",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Diseño de API RESTful",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Fundamentos de Servicios en la Nube",
+                                "categoria": "Cloud",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Diseño y Gestión de Bases de Datos NoSQL",
+                                "categoria": "Data",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Patrones de Arquitectura",
+                                "categoria": "Design",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Gestión de la Configuración de Infraestructura",
+                                "categoria": "DevOps",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Introducción a Service Mesh",
+                                "categoria": "DevOps",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Diseño de Sistemas Resilientes",
+                                "categoria": "General",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Seguridad en Microservicios",
+                                "categoria": "Security",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Principios de Arquitectura Hexagonal",
+                                "categoria": "Design",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Patrones de Integración Empresarial",
+                                "categoria": "Design",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Automatización de Pruebas de Integración",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Diseño de Aplicaciones Multiplataforma",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Optimización de Consumo de API",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Estrategias de Comunicación Asíncrona",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Seguridad en Comunicación de Microservicios",
+                                "categoria": "Security",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Implementación de WebSockets en Tiempo Real",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Implementación de Circuit Breaker Patterns",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Uso de API Management Platforms",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Implementación de Seguridad en API Gateways",
+                                "categoria": "Security",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Uso de Graph Databases",
+                                "categoria": "Data",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Estrategias de Observabilidad con Prometheus",
+                                "categoria": "DevOps",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Arquitectura basada en API First",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Integración de Identity and Access Management",
+                                "categoria": "Security",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Gestión de Certificados Digitales",
+                                "categoria": "Security",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Implementación de Autenticación Multifactor",
+                                "categoria": "Security",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Integración de Herramientas de Automatización de Pruebas",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Implementación de Pruebas de Rendimiento",
+                                "categoria": "Performance",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Optimización de Testing en Entornos CI/CD",
+                                "categoria": "DevOps",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Desarrollo de Aplicaciones Reactivas",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Implementación de Patrones de Comunicación Realtime",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Gestión de Sesiones y Estado en Aplicaciones Distribuidas",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Implementación de Técnicas de Seguridad en Aplicaciones Móviles",
+                                "categoria": "Security",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Implementación de Redes Definidas por Software (SDN)",
+                                "categoria": "Networking",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Implementación de Técnicas de Segmentación de Red",
+                                "categoria": "Networking",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "nivel": "semi_senior",
+                        "descripcion": "Liderazgo técnico y diseño de arquitecturas a gran escala. Se enfoca en la optimización, resiliencia y la integración de sistemas complejos.",
+                        "actividades": [
+                            {
+                                "nombre": "Integración de Sistemas Híbridos",
+                                "categoria": "General",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Arquitectura Basada en Eventos",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Diseño de Microservicios a Escala",
+                                "categoria": "General",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Estrategias Avanzadas de Caching",
+                                "categoria": "Performance",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Implementación de CI/CD en Entornos Complejos",
+                                "categoria": "DevOps",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Gestión de la Infraestructura Multicloud",
+                                "categoria": "Cloud",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Seguridad Avanzada en Aplicaciones Distribuidas",
+                                "categoria": "Security",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Optimización de Bases de Datos Relacionales y NoSQL",
+                                "categoria": "Data",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Estrategias de Observabilidad y Monitorización",
+                                "categoria": "DevOps",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Implementación de Infraestructura como Código a Gran Escala",
+                                "categoria": "DevOps",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Arquitectura de Sistemas en Tiempo Real",
+                                "categoria": "General",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Integración de Herramientas de DevOps",
+                                "categoria": "DevOps",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Diseño y Gestión de Redes Seguras",
+                                "categoria": "Networking",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Uso de Service Mesh para Gestión de Microservicios",
+                                "categoria": "DevOps",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Estrategias de Resiliencia y Tolerancia a Fallos",
+                                "categoria": "General",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Prácticas de DevSecOps",
+                                "categoria": "Security",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Implementación de Estrategias de Cache Distribuido",
+                                "categoria": "Performance",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Arquitectura de Eventos con Apache Kafka",
+                                "categoria": "DevOps",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Implementación de Arquitecturas Event-Driven",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Integración de IoT en la Arquitectura Empresarial",
+                                "categoria": "IoT",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Diseño de Estrategias de Rollback y Blue-Green Deployment",
+                                "categoria": "DevOps",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Implementación de Canary Releases",
+                                "categoria": "DevOps",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Uso de Analytics y Telemetría en Aplicaciones",
+                                "categoria": "Data",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Optimización de Procesos de Data Analytics",
+                                "categoria": "Data",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Integración de IoT con Edge Computing",
+                                "categoria": "IoT",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Diseño de Arquitecturas para Edge Computing",
+                                "categoria": "Cloud",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Implementación de Estrategias de Automatización de Redes",
+                                "categoria": "Networking",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "nivel": "advance",
+                        "descripcion": "Diseño de soluciones de vanguardia y especialización en temas de IA, seguridad avanzada y arquitecturas cloud nativas.",
+                        "actividades": [
+                            {
+                                "nombre": "Arquitectura de Soluciones Basadas en Cloud Nativa",
+                                "categoria": "Cloud",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Implementación de Serverless Architectures",
+                                "categoria": "Cloud",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Estrategias de Migración a la Nube",
+                                "categoria": "Cloud",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Integración de Sistemas Legacy con Microservicios",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Estrategias de Seguridad en la Nube",
+                                "categoria": "Security",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Optimización de Costos en Infraestructura Cloud",
+                                "categoria": "Cloud",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Diseño de Sistemas Distribuidos a Gran Escala",
+                                "categoria": "General",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Implementación de Modelos de Datos Avanzados",
+                                "categoria": "Data",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Arquitectura de Contenedores en Producción",
+                                "categoria": "DevOps",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Estrategias de Alta Disponibilidad y Disaster Recovery",
+                                "categoria": "General",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Automatización Avanzada de Infraestructura",
+                                "categoria": "DevOps",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Uso de Inteligencia Artificial en la Gestión de Sistemas",
+                                "categoria": "AI/ML",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Integración de API Gateways en Ecosistemas Heterogéneos",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Diseño y Gestión de Sistemas Basados en Eventos",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Estrategias de Seguridad Zero Trust",
+                                "categoria": "Security",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Optimización de Procesos CI/CD",
+                                "categoria": "DevOps",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Diseño de APIs Hipermedia (HATEOAS)",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Arquitectura de Sistemas Basados en Event Sourcing",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Implementación de CQRS",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Implementación de Infraestructura sin Servidor",
+                                "categoria": "Cloud",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Uso de FaaS en Arquitectura Empresarial",
+                                "categoria": "Cloud",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Implementación de Machine Learning Pipelines",
+                                "categoria": "AI/ML",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Diseño de Sistemas de Recomendación",
+                                "categoria": "AI/ML",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Uso de Modelos Predictivos en la Arquitectura",
+                                "categoria": "AI/ML",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Implementación de NLP en Aplicaciones",
+                                "categoria": "AI/ML",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Arquitectura para Integración de Blockchain",
+                                "categoria": "Security",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Implementación de Smart Contracts",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Uso de Plataformas Blockchain Empresariales",
+                                "categoria": "Security",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Diseño de Infraestructuras para Realidad Aumentada",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Implementación de Sistemas para Realidad Virtual",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Uso de Tecnologías 5G en Arquitectura",
+                                "categoria": "Networking",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Diseño de Arquitecturas para IoT Masivo",
+                                "categoria": "IoT",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Implementación de Estrategias de Optimización de Recursos",
+                                "categoria": "Performance",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Desarrollo de Soluciones de Automatización Empresarial",
+                                "categoria": "Development",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Integración de Plataformas de Comunicación Unificada",
+                                "categoria": "Communication",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "nivel": "senior",
+                        "descripcion": "Diseño de arquitecturas empresariales y estratégicas. El arquitecto actúa como un líder que diseña soluciones completas y de gran impacto, abarcando el negocio y la tecnología.",
+                        "actividades": [
+                            {
+                                "nombre": "Diseño y Evaluación de Arquitecturas Empresariales",
+                                "categoria": "General",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Estrategias de Optimización de Rendimiento a Gran Escala",
+                                "categoria": "Performance",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Arquitectura de Sistemas para Big Data",
+                                "categoria": "Data",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Diseño de Infraestructuras de Alta Escalabilidad y Resiliencia",
+                                "categoria": "General",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Gestión de Riesgos y Seguridad Integral",
+                                "categoria": "Security",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Arquitectura de Microservicios con Integración Continua",
+                                "categoria": "DevOps",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Implementación de Políticas de Gobernanza y Compliance",
+                                "categoria": "Management",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Estrategias de Integración Continua en Sistemas Complejos",
+                                "categoria": "DevOps",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Arquitectura de Redes para Centros de Datos",
+                                "categoria": "Networking",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Optimización de Sistemas Distribuidos en Tiempo Real",
+                                "categoria": "Performance",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Diseño de Arquitecturas Multi-Tier y Multicloud",
+                                "categoria": "Cloud",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Uso de Automatización y Orquestación Avanzada",
+                                "categoria": "DevOps",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Estrategias de Data Lake y Data Warehouse",
+                                "categoria": "Data",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Implementación de Estrategias de Observabilidad y Telemetría",
+                                "categoria": "DevOps",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Integración de Tecnologías Emergentes en la Arquitectura",
+                                "categoria": "General",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Diseño de Bases de Datos Distribuidas",
+                                "categoria": "Data",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Gestión de Transacciones en Sistemas Distribuidos",
+                                "categoria": "Data",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Diseño de Arquitecturas Multitenant",
+                                "categoria": "Cloud",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Optimización de Latencia en Sistemas Distribuidos",
+                                "categoria": "Performance",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Diseño de Arquitecturas para Big Data",
+                                "categoria": "Data",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Uso de Hadoop y Spark en la Arquitectura",
+                                "categoria": "Data",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Optimización de Procesos de ETL",
+                                "categoria": "Data",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Modelado de Data Lakes",
+                                "categoria": "Data",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Integración de Data Warehouses",
+                                "categoria": "Data",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Optimización de Procesos de Data Mining",
+                                "categoria": "Data",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Diseño de Sistemas para Transacciones Seguras",
+                                "categoria": "Security",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Implementación de Soluciones de BI",
+                                "categoria": "Data",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Integración de Herramientas de Visualización de Datos",
+                                "categoria": "Data",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Estrategias de Resiliencia en Redes de Datos",
+                                "categoria": "Networking",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Gestión de Infraestructura en Ambientes Multi-Cloud",
+                                "categoria": "Cloud",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Gestión de Políticas de Seguridad y Compliance en Redes",
+                                "categoria": "Security",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Optimización de Rendimiento en Aplicaciones de Alto Tráfico",
+                                "categoria": "Performance",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "nivel": "gerente",
+                        "descripcion": "Liderazgo estratégico y de negocio. En este nivel, el arquitecto polímata se enfoca en la planificación, la gobernanza y la innovación, alineando la tecnología con los objetivos empresariales.",
+                        "actividades": [
+                            {
+                                "nombre": "Estrategia de Arquitectura Empresarial y Tecnológica",
+                                "categoria": "Management",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Gestión y Liderazgo de Equipos Técnicos",
+                                "categoria": "Management",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Planificación y Presupuestación de Proyectos de TI",
+                                "categoria": "Management",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Evaluación de ROI y Beneficios de Inversión en Tecnología",
+                                "categoria": "Management",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Gestión de Riesgos y Cumplimiento Normativo",
+                                "categoria": "Management",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Estrategias de Innovación y Transformación Digital",
+                                "categoria": "Management",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Evaluación y Selección de Proveedores Tecnológicos",
+                                "categoria": "Management",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Gestión de la Cultura DevOps en la Organización",
+                                "categoria": "Management",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Diseño y Ejecución de Estrategias de Gobernanza TI",
+                                "categoria": "Management",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Supervisión de la Integración Tecnológica y la Escalabilidad Organizacional",
+                                "categoria": "Management",
+                                "url": ""
+                            },
+                            {
+                                "nombre": "Planificación Estratégica en Transformación Digital",
+                                "categoria": "Management",
+                                "url": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        };
+
+        const algoritmosContainer = document.getElementById('algoritmos-container');
+
+        const obtenerEmojiPorNivel = (nivel) => {
+            switch (nivel.toLowerCase()) {
+                case 'freshman':
+                    return '🐣';
+                case 'sophomore':
+                    return '🐥';
+                case 'junior':
+                    return '🤓';
+                case 'semi_senior':
+                    return '🐱‍💻';
+                case 'advance':
+                    return '🚀';
+                case 'senior':
+                    return '👽';
+                case 'gerente':
+                    return '👑';
+                default:
+                    return '🤷‍♀️';
+            }
+        };
+
+        planDeDesarrollo.plan_de_desarrollo_polimata.niveles.forEach(nivelData => {
+            const nivelElement = document.createElement('div');
+            nivelElement.classList.add('nivel-container');
+
+            const nivelTituloElement = document.createElement('h3');
+            nivelTituloElement.classList.add('nivel-titulo');
+            nivelTituloElement.textContent = `Nivel: ${nivelData.nivel.toUpperCase()}`;
+            nivelElement.appendChild(nivelTituloElement);
+            
+            const nivelDescripcionElement = document.createElement('p');
+            nivelDescripcionElement.textContent = nivelData.descripcion;
+            nivelElement.appendChild(nivelDescripcionElement);
+
+            nivelData.actividades.forEach(actividad => {
+                const actividadElement = document.createElement('div');
+                actividadElement.classList.add('algoritmo');
+                const emoji = obtenerEmojiPorNivel(nivelData.nivel);
+                
+                actividadElement.innerHTML = `
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="checkbox-${actividad.nombre.replace(/\s+/g, '-').toLowerCase()}">
+                    </div>
+                    <div>
+                        <h3>${emoji} ${actividad.nombre}</h3>
+                        <p class="algoritmo-level"><strong>Nivel:</strong> <span>${nivelData.nivel.toUpperCase()}</span></p>
+                        <p><strong>Categoría:</strong> ${actividad.categoria}</p>
+                        ${actividad.url ? `<a href="${actividad.url}">Enlace</a>` : ''}
+                    </div>
+                `;
+                nivelElement.appendChild(actividadElement);
+            });
+
+            algoritmosContainer.appendChild(nivelElement);
+        });
+
+    </script>
+</body>
+
+</html>
